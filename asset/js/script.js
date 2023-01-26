@@ -113,7 +113,7 @@ class EngClass
             {
                 name : "May Kine Oo",
                 img : "asset/img/waiyamonphoo.jpg",
-                nickname : "hh",
+                nickname : "MKO",
                 phone : "09421122206",
                 facebook : "SP Education",
                 fburl : "https://facebook.com/SP-Education-868084966887176"
