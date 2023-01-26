@@ -117,17 +117,27 @@ class EngClass
                 phone : "09421122206",
                 facebook : "SP Education",
                 fburl : "https://facebook.com/SP-Education-868084966887176"
+            },
+            {
+                name : "Pyae Phyo Aung",
+                img : "asset/img/trwilliam.jpg",
+                nickname : "William",
+                phone : "09264671449",
+                facebook : "SP Education",
+                fburl : "https://facebook.com/SP-Education-868084966887176"
             }
         ]
 
         this.searchBtn.addEventListener("click",()=>
         {
             this.clickSearchBtn()
+            this.searchInput.value = null
         })
         window.addEventListener("keypress",(e)=>{
             if(e.key == "Enter")
             {
                 this.clickSearchBtn()
+                this.searchInput.value = null
             }
         })
     }
